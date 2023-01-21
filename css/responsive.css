@@ -1,0 +1,124 @@
+
+@media screen and (min-width: 0px) and (max-width :450px) {
+    *{
+        box-sizing: border-box;
+    }
+    nav{
+        flex-direction: column;
+    }
+    nav>:nth-child(2){
+        /* flex-direction: column; */
+        /* flex-wrap: nowrap; */
+    }
+    .head-content>h1{
+        font-size: 2rem;
+    }
+    .head-content{
+        margin-top: 0;
+        padding: 1.4rem;
+    }
+    header::before{
+        height: 200px;
+        width: 100%;
+        object-fit: center;
+    }
+    #about{
+        top: 2rem;
+    }
+    #about>div h2{
+        font-size: 2rem;
+    }
+    .product{
+        padding: 1rem;
+        gap: 1rem;
+    }
+    .product>div{
+        width: 150px;
+        /* height: 500px; */
+        height: 80%;
+        gap: .4rem;
+        border: 2px solid red;
+    }
+    #product>h1{
+        font-size: 2rem;
+    }
+    .product>div>h2{
+        font-size: 1rem;
+    }
+    .product>div>p{
+        font-size: .6rem;
+    }
+    .product>div button{
+        padding: .2rem .3rem;
+        width: 100%;
+        border: 1px solid ;
+        font-size: .6rem    ;
+    }
+    #news{
+        top: 21rem;
+        padding: 1rem;
+        gap: 1rem;
+        /* border: 2px solid blue; */
+    }
+    #news>h1{
+        font-size: 2rem;
+    }
+    .news{
+        /* flex-direction: column; */
+        gap: 1rem;
+        padding: 1rem;
+    }
+    .news>div{
+        width: 150px;
+        height: 80%;
+        /* flex-direction: column; */
+        justify-content: space-between;
+        flex-wrap: wrap;
+        border: 1px solid red;
+    }
+    
+    .news>div>h2{
+        font-size: 1rem;
+    }
+    .news>div>p{
+        font-size: .5rem;
+    }
+    .news>div button{
+        padding: .2rem .3rem;
+        width: 100%;
+        border: 1px solid ;
+        font-size: .5rem    ;
+
+    }
+   
+    .contact{
+        top: 33rem ;
+    }
+    .contact>div>div{
+        /* flex-direction: row; */
+        width: 150px;
+        border: 2px solid red;
+        flex-wrap: wrap;
+        padding: .2rem;;
+        align-items: center;
+        justify-content: center;
+
+    }
+    .contact>div>div h3{
+        font-size: 1rem;
+        color: black;
+    }
+    .contact>div>div p{
+        font-size: .7rem;
+    }
+    footer{
+        top: 135%;
+    }
+    footer p{
+        font-size: .7rem;
+    }
+
+}
+
+
+

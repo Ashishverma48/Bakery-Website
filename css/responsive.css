@@ -37,7 +37,7 @@
         /* height: 500px; */
         height: 80%;
         gap: .4rem;
-        border: 2px solid red;
+        /* border: 2px solid red; */
     }
     #product>h1{
         font-size: 2rem;
@@ -74,7 +74,7 @@
         /* flex-direction: column; */
         justify-content: space-between;
         flex-wrap: wrap;
-        border: 1px solid red;
+        /* border: 1px solid red; */
     }
     
     .news>div>h2{
@@ -94,10 +94,13 @@
     .contact{
         top: 33rem ;
     }
+    .contact>h2{
+        font-size: 2rem;
+    }
     .contact>div>div{
         /* flex-direction: row; */
         width: 150px;
-        border: 2px solid red;
+        /* border: 2px solid red; */
         flex-wrap: wrap;
         padding: .2rem;;
         align-items: center;
